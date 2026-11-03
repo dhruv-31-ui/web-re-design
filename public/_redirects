@@ -1,1 +1,2 @@
-/* /index.html 200
+# Clean URLs are handled by Netlify's file mapping and explicit routes in
+# netlify.toml. Do not add a catch-all rewrite: unknown paths must return 404.

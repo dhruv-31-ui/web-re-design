@@ -6,7 +6,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com data:; connect-src 'self' https://api.web3forms.com; frame-src https://www.google.com; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://web3forms.com https://www.google.com https://www.gstatic.com https://hcaptcha.com https://*.hcaptcha.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://hcaptcha.com https://*.hcaptcha.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com https://*.wikimedia.org data: blob:; connect-src 'self' https://api.web3forms.com https://hcaptcha.com https://*.hcaptcha.com; frame-src https://www.google.com https://hcaptcha.com https://*.hcaptcha.com; form-action 'self' https://api.web3forms.com; frame-ancestors 'none'"
 
 
 
@@ -115,17 +115,5 @@
 [[redirects]]
   from = "/insights"
   to = "/insights.html"
-  status = 200
-  force = false
-
-[[redirects]]
-  from = "/article-*"
-  to = "/article-:splat"
-  status = 200
-  force = false
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
   status = 200
   force = false

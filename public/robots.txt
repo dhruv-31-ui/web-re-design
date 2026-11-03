@@ -21,7 +21,6 @@ Allow: /client-results
 Allow: /privacy
 Allow: /assets/
 Allow: /article
-Allow: /article-pf
 Allow: /article-posh
 Allow: /article-gratuity
 Allow: /article-wage

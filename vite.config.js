@@ -22,6 +22,9 @@ function getHtmlEntries(dir, base = '') {
 const inputs = getHtmlEntries(__dirname);
 
 export default defineConfig({
+  // This is a multi-page HTML site. Do not serve index.html as a fallback for
+  // unknown URLs during local development or Vite preview.
+  appType: 'mpa',
   build: {
     rollupOptions: {
       input: inputs

@@ -127,7 +127,7 @@
 
   <!-- Article / Insight pages -->
   <url>
-    <loc>https://www.czarconsultancy.com/article-pf</loc>
+    <loc>https://www.czarconsultancy.com/article-epfo</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -181,13 +181,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.czarconsultancy.com/article-esic</loc>
+    <loc>https://www.czarconsultancy.com/article-fire</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.czarconsultancy.com/article-epfo</loc>
+    <loc>https://www.czarconsultancy.com/article-esic</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

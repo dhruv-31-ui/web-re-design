@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.czarconsultancy.com/sitemap.xml
+
+# Disallow private/build folders
+Disallow: /admin/
+Disallow: /private/
+Disallow: /src/
+Disallow: /dist/
+
+# Allow all public pages explicitly
+Allow: /about
+Allow: /services
+Allow: /insights
+Allow: /team
+Allow: /contact
+Allow: /careers
+Allow: /client-results
+Allow: /privacy
+Allow: /assets/
+Allow: /article
+Allow: /article-pf
+Allow: /article-posh
+Allow: /article-gratuity
+Allow: /article-wage
+Allow: /article-factory
+Allow: /article-contract
+Allow: /article-inspection
+Allow: /article-digital
+Allow: /article-shift
+Allow: /article-esic
+Allow: /article-epfo
+Allow: /article-grievance
+Allow: /article-shops

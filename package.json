@@ -1,0 +1,27 @@
+{
+  "name": "czar-consultancy-website",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "node src/server.js",
+    "extract:images": "node scripts/extract-images.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4",
+    "express-rate-limit": "^8.6.2",
+    "helmet": "^8.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.3",
+    "postcss": "^8.4.37",
+    "tailwindcss": "^3.4.4",
+    "vite": "^8.1.3"
+  }
+}

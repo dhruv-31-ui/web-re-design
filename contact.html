@@ -25,9 +25,12 @@
   "@graph": [
     {
       "@type": "ContactPage",
+      "@id": "https://www.czarconsultancy.com/contact#webpage",
       "url": "https://www.czarconsultancy.com/contact",
       "name": "Contact Czar Consultancy",
-      "description": "Contact Czar Consultancy for expert labour law and compliance advisory in India."
+      "description": "Contact Czar Consultancy for expert labour law and compliance advisory in India.",
+      "isPartOf": { "@id": "https://www.czarconsultancy.com/#website" },
+      "about": { "@id": "https://www.czarconsultancy.com/#organization" }
     },
     {
       "@type": "BreadcrumbList",
@@ -138,6 +141,15 @@ button { cursor: pointer; border: none; background: none; }
 
 /* ─── DIRECTORY SECTION (BAIN-STYLE) ─── */
 .directory-sec { padding: 80px 0; border-bottom: 1px solid var(--line); }
+.office-map { padding: 48px 0; border-bottom: 1px solid var(--line); }
+.office-map-frame { display: block; width: 100%; height: clamp(320px, 56.25vw, 480px); border: 0; }
+.office-map-actions { display: flex; justify-content: flex-end; margin-top: 20px; }
+.office-map-directions { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 12px 20px; border-radius: 6px; background: var(--red); color: #fff; font-weight: 600; text-align: center; transition: background 0.3s; }
+.office-map-directions:hover { background: var(--red-dk); }
+@media (max-width: 720px) {
+  .office-map-actions { justify-content: flex-start; }
+}
+
 .directory-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
 .directory-item { padding: 32px 32px 32px 0; border-bottom: 1px solid var(--line); }
 .directory-item:nth-child(3n+2) { padding-left: 32px; padding-right: 32px; border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
@@ -615,6 +627,22 @@ button { cursor: pointer; border: none; background: none; }
         <a href="/insights" class="dir-link">Browse insights <span>→</span></a>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<section class="office-map" aria-labelledby="office-location-heading">
+  <div class="wrap">
+    <h2 id="office-location-heading">Office location</h2>
+    <iframe
+      class="office-map-frame"
+      title="Map showing Czar Consultancy's Gurugram office"
+      src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m2!2m1!1sCzar+consultancy+PF+Consultant,+302,+3rd+Floor,+Kamla+Place,+Jail+Road,+Gurugram+122001,+Haryana,+India"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <div class="office-map-actions">
+      <a class="office-map-directions" href="https://www.google.com/maps/dir/?api=1&amp;destination=Czar%20consultancy%20PF%20Consultant%20%28compliance%29&amp;destination_place_id=0x0%3A0xfaa203fa98ac1212" target="_blank" rel="noopener noreferrer">Get directions on Google Maps</a>
     </div>
   </div>
 </section>

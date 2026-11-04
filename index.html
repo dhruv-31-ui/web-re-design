@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="preload" as="image" href="/hero2.jpg" fetchpriority="high" />
   <title>Czar Consultancy | Labour Law, Compliance &amp; HR Advisory Services in India</title>
   <meta name="description" content="Czar Consultancy — India's leading labour law, compliance, payroll and HR advisory firm. 15+ years serving 200+ enterprises across manufacturing, technology, banking and retail." id="metaDescription" />
   <meta name="keywords" content="labour law consultant India, compliance advisory, payroll services, PF ESIC compliance, factory act compliance, POSH Act, contract labour, HR advisory" />
@@ -452,7 +453,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
   opacity: 0.2;
   font-style: normal;
 }
-.impact-author h4 {
+.impact-author-title {
   font-size: 15px;
   font-weight: 700;
   color: var(--ink);
@@ -565,7 +566,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
 /* FOOTER */
 .footer{background:var(--ink);padding:80px 0 0;color:rgba(255,255,255,0.7)}
 .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:64px;padding-bottom:64px;border-bottom:1px solid rgba(255,255,255,0.1)}
-.f-col h4{font-size:11px;font-weight:700;letter-spacing:0.15em;color:#fff;margin-bottom:24px;text-transform:uppercase}
+.f-col h2{font-size:11px;font-weight:700;letter-spacing:0.15em;color:#fff;margin-bottom:24px;text-transform:uppercase}
 .f-col ul li{margin-bottom:12px}
 .f-col ul li a{transition:color 0.3s;font-size:14.5px}
 .f-col ul li a:hover{color:#fff}
@@ -635,7 +636,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
-.mega-col h4 {
+.mega-col-title {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -895,12 +896,12 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
   <div class="header-top">
     <div class="wrap nav-wrap">
       <button class="desktop-hamburger"  data-action="open-sidebar" aria-label="Menu"><span></span><span></span><span></span></button>
-        <a class="nav-logo" href="/"><img src="/logo.png" alt="Czar Consultancy" class="logo-img"/><span class="logo-tagline">Labour Law & Compliance</span></a>
+        <a class="nav-logo" href="/"><img src="/logo.png" alt="Czar Consultancy" class="logo-img" width="1600" height="592"/><span class="logo-tagline">Labour Law & Compliance</span></a>
       <div class="header-contact-info">
         <a href="tel:+919319095290" class="hc-link"><svg class="hc-svg" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.55.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.49a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.24 1.01l-2.2 2.23z"/></svg> +91 9319095290</a>
         <a href="mailto:compliance&#64;czarconsultancy&#46;com" class="hc-link"><svg class="hc-svg" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg> compliance@czarconsultancy.com</a>
       </div>
-      <button class="hamburger" id="mobileMenuButton" aria-label="Toggle menu"  data-action="toggle-mobile-nav"><span></span><span></span><span></span></button>
+      <button class="hamburger" id="mobileMenuButton" aria-label="Toggle menu" aria-expanded="false" data-action="toggle-mobile-nav"><span></span><span></span><span></span></button>
     </div>
   </div>
   <nav class="nav">
@@ -912,13 +913,13 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
   <div class="mega-menu" style="max-width: 600px; margin: 0 auto; left: 0;">
     <div class="mega-menu-inner wrap" style="grid-template-columns: 1fr 1fr; padding: 0 32px;">
       <div class="mega-col">
-        <h4>About Czar</h4>
+        <div class="mega-col-title">About Czar</div>
         <a href="/about">Company Overview</a>
         <a href="/team">Leadership & Team</a>
         <a href="/careers">Careers</a>
       </div>
       <div class="mega-col">
-        <h4>Our Impact</h4>
+        <div class="mega-col-title">Our Impact</div>
         <a href="/client-results">Client Results</a>
         <a href="/about" style="color: var(--red); font-weight: 700; margin-top: 16px;">View Full Profile →</a>
       </div>
@@ -930,20 +931,20 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
             <div class="mega-menu">
               <div class="mega-menu-inner wrap">
                 <div class="mega-col">
-                  <h4>Core Compliance</h4>
+                  <div class="mega-col-title">Core Compliance</div>
                   <a href="/services/shop">Shops & Establishments</a>
                   <a href="/services/factory">Factories Act Compliance</a>
                   <a href="/services/contract">Contract Labour (CLRA)</a>
                   <a href="/services/bocw">BOCW Act</a>
                 </div>
                 <div class="mega-col">
-                  <h4>Payroll & Social Security</h4>
+                  <div class="mega-col-title">Payroll & Social Security</div>
                   <a href="/services/payroll">Payroll Processing</a>
                   <a href="/services/pfesic">PF & ESIC Compliance</a>
                   <a href="/services/epf">EPF Trust Management</a>
                 </div>
                 <div class="mega-col">
-                  <h4>Advisory & Audits</h4>
+                  <div class="mega-col-title">Advisory & Audits</div>
                   <a href="/services/labour">Labour Laws Advisory</a>
                   <a href="/services/posh">POSH Act Compliance</a>
                   <a href="/services/fire">Fire NOC & Lifts</a>
@@ -958,7 +959,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
             <div class="mega-menu" >
               <div class="mega-menu-inner wrap" style="grid-template-columns: 1fr 1fr; max-width: 800px; margin: 0 auto;">
                 <div class="mega-col">
-                  <h4>Compliance Articles</h4>
+                  <div class="mega-col-title">Compliance Articles</div>
                   <a href="/article-epfo">Understanding PF & ESIC</a>
                   <a href="/article-posh">POSH Act Guidelines</a>
                   <a href="/article-gratuity">Gratuity Rules</a>
@@ -966,7 +967,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
                   <a href="/article-factory">Factories Act Deep Dive</a>
                 </div>
                 <div class="mega-col">
-                  <h4>Updates & News</h4>
+                  <div class="mega-col-title">Updates & News</div>
                   <a href="/article-digital">Digital Compliance</a>
                   <a href="/article-shift">Shift Operations</a>
                   <a href="/article-inspection">Preparing for Inspections</a>
@@ -986,7 +987,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
 </header>
 
 <div id="mob-nav-overlay"  data-action="toggle-mobile-nav" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:9998;"></div>
-<div class="mob-nav" id="mobileNav" aria-hidden="true">
+<div class="mob-nav" id="mobileNav" aria-hidden="true" inert>
   <button class="mob-nav-close" type="button"  data-action="toggle-mobile-nav">&#x2715;</button>
   <a href="/">Home</a><a href="/about">About Us</a><a href="/services">Services</a>
   <a href="/insights">Insights</a><a href="/team">Our Team</a><a href="/careers">Careers</a>
@@ -998,7 +999,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
 <!-- CINEMATIC HERO -->
 <section class="hero-slider-section">
   <div class="slide active">
-    <img class="slide-bg" src="/hero2.png" alt="Czar Consultancy's labour law and compliance advisory services" loading="eager"/>
+    <img class="slide-bg" src="/hero2.jpg" alt="Czar Consultancy's labour law and compliance advisory services" loading="eager" fetchpriority="high"/>
     <div class="slide-overlay" style="background: linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 100%);"></div>
     <div class="wrap slide-content" style="height:100%; display:flex; align-items:center;">
       <div>
@@ -1081,7 +1082,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
           Czar Consultancy has transformed our compliance posture. Their meticulous approach to the Factories Act and Labour Laws ensures we operate without regulatory friction. A truly world-class partner.
         </blockquote>
         <div class="impact-author">
-          <h4>Managing Director</h4>
+          <div class="impact-author-title">Managing Director</div>
           <p>Leading Manufacturing Firm</p>
         </div>
       </div>
@@ -1109,7 +1110,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
     <div class="insights-grid">
       <a href="/article-contract" class="insight-card">
         <div class="insight-img-wrap">
-          <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800" alt="Contract labour compliance and workforce management advisory"/>
+          <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800" alt="Contract labour compliance and workforce management advisory" loading="lazy"/>
         </div>
         <span class="insight-tag">Labour Laws</span>
         <h3>Contract Labour Compliance in India: Complete Employer Guide</h3>
@@ -1117,7 +1118,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
       </a>
       <a href="/article-epfo" class="insight-card">
         <div class="insight-img-wrap">
-          <img src="/images/epf-compliance.avif" alt="EPF and ESIC compliance advisory services"/>
+          <img src="/images/epf-compliance.avif" alt="EPF and ESIC compliance advisory services" loading="lazy"/>
         </div>
         <span class="insight-tag">Statutory</span>
         <h3>EPF Compliance for Employers: Registration & Filing Guide</h3>
@@ -1125,7 +1126,7 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
       </a>
       <a href="/article-posh" class="insight-card">
         <div class="insight-img-wrap">
-          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=800" alt="POSH Act workplace compliance and employee awareness advisory"/>
+          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=800" alt="POSH Act workplace compliance and employee awareness advisory" loading="lazy"/>
         </div>
         <span class="insight-tag">Safety & POSH</span>
         <h3>Appointing an External Member under the POSH Act</h3>
@@ -1148,12 +1149,12 @@ button{font-family:'Inter',sans-serif;cursor:pointer;border:none;background:none
 <footer class="footer">
   <div class="wrap footer-top">
     <div>
-      <img src="/logo.png" alt="Czar Consultancy" style="height:40px;margin-bottom:16px;filter:brightness(0) invert(1);opacity:0.8"/>
+      <img src="/logo.png" alt="Czar Consultancy" width="1600" height="592" style="height:40px;margin-bottom:16px;filter:brightness(0) invert(1);opacity:0.8"/>
       <p style="line-height:1.8;max-width:320px">India's leading specialized labour law and compliance advisory firm, serving over 200 enterprises across sectors.</p>
     </div>
-    <div class="f-col"><h4>Company</h4><ul><li><a href="/about">About Us</a></li><li><a href="/team">Leadership</a></li><li><a href="/careers">Careers</a></li></ul></div>
-    <div class="f-col"><h4>Resources</h4><ul><li><a href="/services">Services</a></li><li><a href="/insights">Insights</a></li><li><a href="/contact">Contact Us</a></li></ul></div>
-    <div class="f-col"><h4>Contact</h4><ul>
+    <div class="f-col"><h2>Company</h2><ul><li><a href="/about">About Us</a></li><li><a href="/team">Leadership</a></li><li><a href="/careers">Careers</a></li></ul></div>
+    <div class="f-col"><h2>Resources</h2><ul><li><a href="/services">Services</a></li><li><a href="/insights">Insights</a></li><li><a href="/contact">Contact Us</a></li></ul></div>
+    <div class="f-col"><h2>Contact</h2><ul>
       <li style="display:flex;align-items:center;gap:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg> <a href="mailto:compliance&#64;czarconsultancy&#46;com">compliance&#64;czarconsultancy&#46;com</a></li>
       <li style="display:flex;align-items:center;gap:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg> <a href="tel:+919319095290">+91 9319095290</a></li>
     </ul></div>
@@ -1173,6 +1174,7 @@ function toggleMobileNav(){
   if(!nav) return;
   const o = nav.classList.toggle('open');
   nav.setAttribute('aria-hidden', String(!o));
+  nav.toggleAttribute('inert', !o);
   if(btn) btn.setAttribute('aria-expanded', String(o));
   if(overlay) overlay.style.display = o ? 'block' : 'none';
   document.body.style.overflow = o ? 'hidden' : '';
@@ -1183,7 +1185,7 @@ function toggleMobileNav(){
 <div id="sidebar-overlay"  data-action="close-sidebar"></div>
 <div id="desktop-sidebar">
   <div class="ds-header">
-    <img src="/logo.png" alt="Czar Consultancy" style="height: 32px;">
+    <img src="/logo.png" alt="Czar Consultancy" width="1600" height="592" style="height: 32px;">
     <button class="ds-close"  data-action="close-sidebar">×</button>
   </div>
   

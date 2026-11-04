@@ -1,0 +1,33 @@
+# Czar Consultancy
+
+> Czar Consultancy provides labour law, statutory compliance, payroll and HR advisory services to employers in India.
+
+## Main pages
+- [Home](https://www.czarconsultancy.com/)
+- [About](https://www.czarconsultancy.com/about)
+- [Services](https://www.czarconsultancy.com/services)
+- [Insights](https://www.czarconsultancy.com/insights)
+- [Contact](https://www.czarconsultancy.com/contact)
+
+## Services
+- [Labour law compliance](https://www.czarconsultancy.com/services/labour)
+- [Payroll processing](https://www.czarconsultancy.com/services/payroll)
+- [PF and ESIC](https://www.czarconsultancy.com/services/pfesic)
+- [POSH advisory](https://www.czarconsultancy.com/services/posh)
+- [Contract labour](https://www.czarconsultancy.com/services/contract)
+- [Factory compliance](https://www.czarconsultancy.com/services/factory)
+- [Shops and Establishments](https://www.czarconsultancy.com/services/shop)
+
+## Guides
+- [Contract labour compliance guide](https://www.czarconsultancy.com/article-contract)
+- [EPFO compliance guide](https://www.czarconsultancy.com/article-epfo)
+- [ESIC compliance guide](https://www.czarconsultancy.com/article-esic)
+- [Factory compliance guide](https://www.czarconsultancy.com/article-factory)
+- [POSH compliance guide](https://www.czarconsultancy.com/article-posh)
+- [Shops and Establishments guide](https://www.czarconsultancy.com/article-shops)
+- [Wage compliance guide](https://www.czarconsultancy.com/article-wage)
+
+## Contact
+- Phone: +91 9319095290
+- Email: compliance@czarconsultancy.com
+- [Contact page](https://www.czarconsultancy.com/contact)

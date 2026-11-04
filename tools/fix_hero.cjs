@@ -7,7 +7,7 @@ const heroRegex = /<!-- HERO SLIDER -->[\s\S]*?<\/section>/;
 const newHeroHTML = `<!-- CINEMATIC HERO -->
 <section class="hero-slider-section">
   <div class="slide active">
-    <img class="slide-bg" src="/hero2.png" alt="Compliance Advisory" loading="eager"/>
+    <img class="slide-bg" src="/hero2.jpg" alt="Compliance Advisory" loading="eager" fetchpriority="high"/>
     <div class="slide-overlay" style="background: linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 100%);"></div>
     <div class="wrap slide-content" style="height:100%; display:flex; align-items:center;">
       <div>
